@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    max-height: 100%;
+    overflow: hidden;
+}
+
+.nav-menu {
+    text-align: right;
+    margin: 0;
+    background-color: #908585;
+    height: 3rem;
+    padding-left: 0;
+}
+
+.nav-items {
+    float: right;
+    list-style: none;
+    padding: 1rem 2rem;
+}
+
+.nav-items a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+.hero {
+    display: flex;
+    height: 42vh;
+    width: 100%;
+    background-image: url("image.jpg");
+    background-repeat: no-repeat;
+    background-size: 80rem 80rem;
+    background-position: center;
+}
+
+.text {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.image {
+    flex-basis: 45%;
+    border: 1px solid #ccc;
+    max-height: 60vh;
+}
+
+
+#footer {
+    position: absolute;
+    clear: both;
+    position: relative;
+    height: 30px;
+    margin-top: -10px;
+    background-color: #908585;
+    text-align: center;
+    padding: 5px;
+    color: white;
+}
